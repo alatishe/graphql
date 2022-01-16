@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useQuery } from "@apollo/client";
 import { QUERY } from "../data/apollo";
-
+import "bootstrap/dist/css/bootstrap.css";
 import List from "../components/List";
 
 export default function IndexPage() {
