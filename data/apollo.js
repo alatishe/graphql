@@ -34,9 +34,13 @@ export function getApolloClient(forceNew) {
 export const QUERY = gql`
   query Jobs {
     jobs {
-      id
       title
+      id
       postedAt
+      company {
+        name
+      }
+      applyUrl
     }
   }
 `;
