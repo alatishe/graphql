@@ -4,9 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import List from "../components/List";
 
 export default function IndexPage() {
-  const { data, loading, error } = useQuery(QUERY);
-
-  console.log({ loading, error });
+  const { data, loading } = useQuery(QUERY);
 
   if (loading) return "Loading...";
 
