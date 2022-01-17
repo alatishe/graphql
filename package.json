@@ -1,5 +1,5 @@
 {
-  "name": "wip-next-apollo-ssr",
+  "name": "graphql-jobs",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
